@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(227, 214, 231);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .main{
+    background-color: rgb(226, 23, 158);
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+} 
+#mains{
+    /* background-color: rgb(31, 66, 3); */
+    color:rgb(255, 188, 4);
+    text-decoration: none;
+    /* width: 100%;
+    height: 50px; */
+    padding-top: -5px;
+    justify-content: center;
+    background-size: 40px;
+    
+    
+}
+#mains li{
+    padding: 20px;
+}
+#mains li a{
+    list-style-type: none;
+    color: rgb(255, 188, 4);
+}
+#mains li a:hover{
+    text-decoration: white underline;
+    font-size: larger;
+    color: rgb(253, 249, 249);
+}
+.navbr{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.menu{
+    width: 100%;
+    margin-left: 10 px;
+    padding-top: 1px; 
+}
+
+ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li {
+    text-decoration: none;
+    color: rgb(212, 85, 85);
+    font-family: Arial;
+    font-weight: bold;
+   /* transition: 0.4 ease-in-out;*/
+    padding-left: 35px;
+}
+
+ul li :hover{
+    color: #ff7200;
+}
+
+.picture{
+    position: relative;
+    width: 670px;
+    height: 445px;
+    left: 250px;
+    top: 20px; 
+    border-radius: 200px;
+    
+}
+.more{
+    color: #d419c5;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    position: relative;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-top: 50px;
+    letter-spacing: 1px;
+    
+}
+.motto{
+    color: #264513;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    position: relative;
+    padding-top: 2px;
+    margin-left: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+h1{
+    color: #7f1376;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-left: 10px;
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
